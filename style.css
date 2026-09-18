@@ -1,28 +1,39 @@
 body {
  font-family: Arial, sans-serif;
  margin: 0;
- background-color: #f4f6f8; }
+ background-color: #f4f6f8; 
+}
 header {
  background-color: #003366;
  color: white;
  padding: 25px;
- text-align: center; }
+ text-align: center; 
+}
 main {
  width: 80%;
- margin: 40px auto; }
+ margin: 40px auto; 
+}
 .card {
  background-color: white;
  padding: 25px;
  margin-bottom: 20px;
  border-radius: 8px;
- box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+}
+/* Estilizando os botões.
+   Alteração: border-radius aumentado de 4px para 12px, deixando os cantos mais arredondados. */
 button {
  background-color: #0066cc;
  color: white;
  border: none;
  padding: 12px 18px;
  cursor: pointer;
- border-radius: 4px; }
+ border-radius: 12px;
+}
+/* Novo modelo: aplica opacidade de 85% ao passar o mouse sobre os botões, criando um efeito visual de interação. */
+button:hover {
+    opacity: 0.85;
+}
 input {
  padding: 8px;
  margin: 5px; }
