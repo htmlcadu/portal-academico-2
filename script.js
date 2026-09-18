@@ -1,9 +1,10 @@
-function consultarDisciplinas() {
+ function consultarDisciplinas() {
  const mensagem = document.getElementById("mensagem");
  mensagem.innerHTML =
  "DevOps<br>" +
  "Engenharia de Software<br>" +
- "Banco de Dados";
+ "Banco de Dados"
+ "Computação em Nuvem";
 }
 function mostrarMedia() {
  const nota1 = Number(document.getElementById("nota1").value);
